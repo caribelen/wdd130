@@ -1,5 +1,5 @@
 <body>
-    <div id=content>
+    <div id="content">
             max-width: 1600px 
             margin: 0 auto;
         
@@ -11,9 +11,8 @@
 
 nav a {
     text-align: center;
-    color: #fcfbfb;
-    text-decoration: none; 
-
+    color: #396E94;
+    text-decoration: none;
 }
 
 h1 #hero-msg {
