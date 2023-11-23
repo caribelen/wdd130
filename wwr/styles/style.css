@@ -30,7 +30,6 @@
     grid-row: 2/3;
 
 }
-
 .card-img{
     border: 10px solid #000000;
     width: 100%;
@@ -215,7 +214,7 @@ footer .social img{
     align-self: center; 
 }
 .logo, .icon {
-    width: 80px
+    width: 80px;
 }
 .icon{
     padding-top: 10px;
