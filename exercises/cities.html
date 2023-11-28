@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/stylesc.css">
+</head>
+<body>
+
+<h2>Famous Cities of Ecuador</h2>
+<p>Click on the buttons inside the tabbed menu to learn more from each city:</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Otavalo')" id="defaultOpen">Otavalo</button>
+  <button class="tablinks" onclick="openCity(event, 'Quito')">Quito</button>
+  <button class="tablinks" onclick="openCity(event, 'Cuenca')">Cuenca</button>
+</div>
+
+<div id="Otavalo" class="tabcontent">
+  <h3>Otavalo</h3>
+  <p>Otavalo is a city in the Andean highlands of the province of Imbabura, northern Ecuador. It is surrounded by volcanoes, such as the Imbabura volcano. It is known for its Otavalo market in the central Plaza de Ponchos, where locals dressed in traditional indigenous clothing sell colorful textiles and crafts.</p>
+</div>
+
+<div id="Quito" class="tabcontent">
+  <h3>Quito</h3>
+  <p>Quito, the capital of Ecuador, is located high on the slopes of the Andes at 2,850 m. It was built on the foundations of an ancient Inca city and is famous for its well-preserved colonial center, with several churches from the 16th and 17th centuries, and other structures that mix European, Moorish and indigenous styles.</p> 
+</div>
+
+<div id="Cuenca" class="tabcontent">
+  <h3>Cuenca</h3>
+  <p>Cuenca (Santa Ana de los Ríos de Cuenca) is a city in the Andean mountains of southern Ecuador. It is known for the banks of the Tomebamba River and crafts, including Panama hats. Its central square, Parque Calderón, is home to the blue-domed New Cathedral and the 16th-century Old Cathedral, which is currently a religious museum.</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
