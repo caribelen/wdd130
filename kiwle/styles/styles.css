@@ -30,7 +30,7 @@ nav{
 
 nav a:hover{
     background-color: black;
-    color: antiquewhite;
+    color: #faebd7;
 }
 #hero{
     display: grid;
@@ -97,9 +97,11 @@ body {
     padding: 0;
 
 }
-h5{
+.msg0{
     margin-left: 800px;
-    margin-top:-400px;
+    margin-top:-550px;
+    text-align: center;
+    background-color: #9ED8DB;
     
 } 
 .image1{
@@ -168,7 +170,9 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+   
 }
+
 
 /* css subpage 1 */
 
@@ -206,21 +210,26 @@ h3{
     margin-left: 800px;
     border: 10px solid black;
     width: 40%;
-    grid-column: 2/4;
+    /* grid-column: 2/4;
     grid-row: 8/10
-    
+     */
     
 }
 .msg1{
-   padding: 100px;
-   margin-top: -100px;
-   margin-left: 500px;
+   /* padding: 50px; */
+   margin-top: 100px;
+   margin-left: 600px;
+   margin-right: 30px;
+   text-align: center;
+   background-color: #9ED8DB;
 }
 
 .msg2{
     margin-top: -10px;
     margin-right: 700px;
     margin-left: 70px;
+    text-align: center;
+   background-color: #9ED8DB;
 }
 h4{
     margin-left: 250px;
@@ -229,4 +238,250 @@ h4{
     font-family: 'Caveat';
     font-size: 2em;
     
+}
+/* css for subpage 2 */
+
+.card-img5{
+    margin-right: 30px;
+    width: 300px;
+    margin-top: 17px;
+    border: 10px solid black;
+    
+    
+}
+
+.card-img6{
+    margin-left: 330px;
+    width: 300px;
+    position: absolute;
+    top: 6em;
+    border: 10px solid black;
+ 
+}
+
+.card-img7{
+    position: absolute;
+    width: 300px;
+    margin-left: 665px ;
+    top: 6em;
+    border: 10px solid black;
+   
+    
+}
+
+.msg6{
+    margin-left: 1000px;
+    margin-right: 20px;
+    margin-top: -3em;
+    background-color: #9ED8DB;
+    text-align: center;
+}
+
+h6{
+    margin-left: 1110px;
+    margin-right: 50px;
+    margin-top: -9.5em;
+    font-family: 'Caveat';
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+.card-img9{
+    width: 230px;
+    margin-left: 1180px;
+    position: absolute;
+    top: 25em;
+    border: 10px solid black;
+    
+    
+}
+.card-img10{
+    width: 250px;
+    margin-left: 880px;
+    position: absolute;
+    top: 25em;
+    border: 10px solid black;
+}
+
+.card-img11{
+    width: 190px;
+    margin-left: 650px;
+    position: absolute;
+    top: 25em;
+    border: 10px solid black;
+
+}
+
+.msg7{
+   margin-right: 800px;
+   margin-left: 30px;
+   margin-top: 50px;
+   text-align: center;
+   background-color: #9ED8DB;
+}
+
+.card-img13{
+    width: 335px;
+    margin-left: 10px;
+    margin-top: 180px;
+    border: 10px solid black;
+
+    
+}
+
+.card-img15{
+    width: 250px;
+    margin-left: 400px;
+    position: absolute;
+    top: 46em;
+    border: 10px solid black;
+}
+
+.card-img16{
+    position: absolute;
+    width: 250px;
+    margin-left: 700px ;
+    top: 46em;
+    border: 10px solid black;
+}
+.msg8{
+    margin-left: 1000px;
+    margin-right: 20px;
+    margin-top: -2em;
+    background-color: #9ED8DB;
+    text-align: center;
+}
+h5{
+    margin-left: 250px ;
+    margin-right: 20px;
+    margin-top: 2em;
+    font-family: 'Caveat';
+    font-size: 1.5em;
+    text-decoration: underline;
+
+}
+
+/* contac us page */
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 5px solid black;
+    border-radius: 1em;
+   
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+  }
+
+  #feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+
+    margin-top: 3em;
+}
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
 }
